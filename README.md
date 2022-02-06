@@ -8,7 +8,9 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-man
 Step 2: Download elastic search via https://www.elastic.co/downloads/elasticsearch
 
 Step 3: Open elasticsearch folder and navigate to /config/ and open elasticsearch.yml
+
 Edit the cluster name to: cluster.name: entry-cluster
+
 Edit the path to where you have cloned this project: C:\Users\User\coding-challenge
 
 Step 4: Import the project into your IDE and run.
