@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Challenge</title>
+</head>
+<body>
+<h1>Here is what has been posted to the Api</h1>
+<table>
+    <tr>
+        <td>Date</td>
+        <td>Text</td>
+        <td>Attachment</td>
+
+    </tr>
+    <tr th:each="entries: ${entry}">
+        <td th:text="${entries.date}">LastName</td>
+        <td th:text="${entries.text}">FirstName</td>
+        <td <img alt="sample" th:src="${entries.attachment}" /></td>
+    </tr>
+</table>
+</body>
+</html>
+
