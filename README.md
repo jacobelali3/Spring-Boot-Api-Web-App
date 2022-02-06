@@ -19,8 +19,8 @@ API Instructions
 
 Step 1. Authenticate yourself by using POST with JSON body
 {
-	"username":"jacobsecretkey"
-	"password":"password"
+	"username":"admin"
+	"password":"jacobsecretkey"
 }
 Step 2. Copy returned JWT token and past it in Header
 eg: Header - > Key:Authorization Value:Bearer '{Insert Token Here}'
