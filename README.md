@@ -1,5 +1,5 @@
 # Spring-Boot-Api-Web-App
-Spring Boot app project using Java implementing a REST API service and Web with JWT authentication. Messages are sent with AMQP RabbitMQ and stored in ElasticSearch!
+Instructions
 
 Step 1: Download and run a docker rabbitmq image:
 
