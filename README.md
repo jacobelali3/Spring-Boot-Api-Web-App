@@ -11,7 +11,7 @@ Step 3: Open elasticsearch folder and navigate to /config/ and open elasticsearc
 
 Edit the cluster name to: cluster.name: entry-cluster
 
-Edit the path to where you have cloned this project: C:\Users\User\coding-challenge
+Edit the path to where you have cloned this project eg: C:\some\path\your-folder
 
 Step 4: Import the project into your IDE and run.
 
